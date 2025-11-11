@@ -1,7 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import { Button } from '@/components/ui/button';
+import Onclick from '../contact/_Components/Onclick';
+
 
 const Header = () => {
   return (
@@ -33,7 +34,7 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-            <Button >Button</Button>
+          <Onclick />
           </div>
         </div>
       </div>
