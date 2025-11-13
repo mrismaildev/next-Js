@@ -1,10 +1,12 @@
-"use client"
+'use client';
 import React from 'react';
+import { useParams } from 'next/navigation';
 
-const page = ({ params }) => {
+const page = () => {
+  const { userid } = useParams();
   return (
     <div>
-      <h1>User Informatin: {params.userid}</h1>
+      <h1>User Informatin: {userid}</h1>
     </div>
   );
 };
