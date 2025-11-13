@@ -16,14 +16,14 @@ const State = () => {
 
   return (
     <div className="flex min-h-screen flex-col justify-center items-center">
-      {/* <input type="text" value={text} onChange={textHandel} />
-      <p>Count: {text}</p> */}
+      <input type="text" value={text} onChange={textHandel} />
+      <p>Count: {text}</p>
       <label htmlFor="text">
         <input type="checkbox" checked={like} onChange={handelChange} />I like
         This
       </label>
       <p>you {like ? 'like' : 'did not like '} this.</p>
-      {/* <button onClick={() => setText('hello')}>Reset</button> */}
+      <button onClick={() => setText('hello')}>Reset</button>
     </div>
   );
 };
